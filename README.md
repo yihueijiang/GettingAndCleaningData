@@ -1,4 +1,4 @@
-# [Coursera Data Science3.Getting And Cleaning Data]
+# Getting And Cleaning Data Project
 
 ### Review criteria
 1.The submitted data set is tidy.
