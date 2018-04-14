@@ -1,39 +1,33 @@
-# Getting and Cleaning Data Project
-Author: Michael Galarnyk <br />
-Blog Post: [Getting and Cleaning Data Review](https://medium.com/@GalarnykMichael/review-course-1-the-data-scientists-toolbox-jhu-coursera-4d7459458821#.5jpg133ln "Click to go to Repo") <br />
-Data Zip File Location: [UC Irvine Repo](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "Clicking will download the data")
+# [Getting And Cleaning Data @Coursera](https://class.coursera.org/getdata-030)
+## Course Project
+The purpose of this project is to demonstrate ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
 
-## Goal of the Project
-1. A tidy data set 
-2. A link to a Github repository with your script for performing the analysis 
-3. A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
-4. Analysis R Script
+### Dataset Description
 
-## Review Criteria
+The project taps into an exciting area of wearable computing, where a number of big brands compete to develop clever algorithms. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
 
-Goal | Item | Link to Item
---- | --- | ---
-Analysis R Script |  run_analysis.R |  [R Script Link](https://github.com/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/projects/run_analysis.R "run_analysis.R")
-Tidy Data Set |  Clean Data Set |  [Data Set Link](https://github.com/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/data/tidyData.txt "tidyData.txt")
-Github Repo | Repo |  [Repo Link](https://github.com/mGalarnyk/datasciencecoursera/tree/master/3_Getting_and_Cleaning_Data "Click to go to Repo")
-Cookbook | CodeBook.md |  [Repo Link](https://github.com/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/projects/CodeBook.md "CodeBook.md")
-README | ReadingItNow |  [Repo Link](https://github.com/mGalarnyk/datasciencecoursera/blob/master/3_Getting_and_Cleaning_Data/projects/README.md "README.md")
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-## Contributors
+Here are the data for the project: 
 
-FirstName | LastName | Email
---- | --- | ---
-Michael |  Galarnyk |  <mgalarny@gmail.com>
-Submit |  Pull Request | <youremailhere@gmail.com>
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-## License
+### Requirements
+Create an R script called run_analysis.R that does the following:
 
-Anyone may contribute after this assignment is turned in and graded. 
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## Blog Posts on the Specialization | John Hopkins Coursera
+### Project Outcome
+In sync with the requirements this project comprises:
 
-[Getting and Cleaning Data (JHU Coursera)](https://medium.com/@GalarnykMichael/getting-and-cleaning-data-jhu-coursera-course-3-c3635747858b#.y93kqfa0u "Review + data.table")
+1. a tidy data set based on the original data set: [tidy_data.txt](https://github.com/zezutom/GetAndCleanDataProject/blob/master/tidy_data.txt) and [tidy_data.csv](https://github.com/zezutom/GetAndCleanDataProject/blob/master/tidy_data.csv) (nicely formatted on GitHub)
+2. an R script called [run_analysis.R](https://github.com/zezutom/GetAndCleanDataProject/blob/master/run_analysis.R) for performing the analysis 
+3. a code book called [CodeBook.md](https://github.com/zezutom/GetAndCleanDataProject/blob/master/CodeBook.md) that describes variables, data and any transformations or work performed to clean up the data 
 
-[R Programming (JHU Coursera)](https://medium.com/@GalarnykMichael/in-progress-review-course-2-r-programming-jhu-coursera-ad27086d8438#.bzzr29fvo "Review + data.table")
-
-[The Data Scientist’s Toolbox (JHU Coursera)](https://medium.com/@GalarnykMichael/review-course-1-the-data-scientists-toolbox-jhu-coursera-4d7459458821#.5jpg133ln "Review + Going over Parts of Quiz")
+### Other Resources
+* [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+* [Data Science & Wearable Computing Battle](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/)
