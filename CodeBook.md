@@ -1,5 +1,4 @@
-# Code book
-
-modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
+# Description
+This code book describes the variables, summarize of the data, and any transformations or work that you performed to clean up the data 
 
 # Variables
