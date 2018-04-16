@@ -31,7 +31,22 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 - 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-# Variables
+### Features 
+The features selected for this database come from the accelerometer and gyroscope three-axial raw signals tAcc-XYZ and tGyro-XYZ.The features were further combined with a variety of estimated variables, such as mean value, standard deviation, largest and smalles value in the set etc. This adds up to over 550 of different indicators in total. The file 'features.txt' lists all of the variables.
 
 
-# Merged
+# Transformations
+The transformations are achieved by the follws steps, script in run_analysis.R.
+1. Install packages, "dplyr","reshape2", and "data.table"
+2. Download the zip file and unzip it.
+3. Loads activity label names and features datasets
+4. Extract the measurements on the mean and standard deviation for each measurement
+5. Load training datasets and give it column names with labels
+6. Load test datasets and give it column names with labels
+7. Merge training and test datasets
+8. Label activity name in the merged data
+9. Creates an independent tidy dataset based on mean and standard deviations
+
+
+
+
